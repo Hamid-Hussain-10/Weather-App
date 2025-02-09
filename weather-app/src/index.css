@@ -10,12 +10,15 @@
 .app {
   display: grid;
   min-height: 100vh;
-  background-color: rgb(57, 57, 169);
+  background-image: url("/images/bg.jpg");
+  background-repeat: none;
+  background-size: 80%;
+  background-position: center;
 }
 
 .weather {
   place-self: center;
-  background-color:#00344C;
+  background-color: #02334a;
   padding: 20px;
   border-radius: 16px;
   display: flex;
@@ -25,14 +28,14 @@
   gap: 1rem;
 }
 
-.search-bar{
+.search-bar {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
 
-.search-bar input{
+.search-bar input {
   width: 18vw;
   background: white;
   border: 1px solid white;
@@ -43,7 +46,7 @@
   font-size: 20px;
 }
 
-.search-bar img{
+.search-bar img {
   background: white;
   border: 1px solid white;
   border-radius: 2rem;
@@ -56,7 +59,7 @@
 
 .weather-info {
   max-width: 350px;
-  background: linear-gradient(135deg, #4d4013, #b5730f);  
+  background: linear-gradient(135deg, #4d4013, #b5730f);
   color: white;
   text-align: center;
   padding: 30px;
@@ -74,14 +77,14 @@
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 .weather-img p {
   font-size: 30px;
   margin: 5px 0;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 .weather-info p:nth-child(1) {
